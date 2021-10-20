@@ -1,0 +1,94 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    margin: 40px 0;
+}
+
+.title h2 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.underline {
+    background-color: royalblue;
+    width: 12%;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.review {
+    border: 1px solid royalblue;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img-container img {
+    width: 70px;
+    border: 1px solid royalblue;
+    border-radius: 50%;
+    box-shadow: 0 0 10px royalblue;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#author {
+    margin: 0;
+}
+
+#job {
+    margin: 0;
+    color: royalblue;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#info {
+    font-size: 12px;
+}
+
+.prev-btn,
+.next-btn {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-size: 8px;
+    cursor: pointer;
+
+}
+
+.random-btn {
+    border: 1px solid royalblue;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.random-btn:hover {
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+}
